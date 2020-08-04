@@ -35,7 +35,6 @@ function back() {
 //Submit Button event handler:
 
 function notification() {
-    
         var calculatorInput=document.getElementById("calculator-input");
         var randomInput=document.getElementById("randomDisplay");
         if (calculatorInput.value==randomInput.value) {

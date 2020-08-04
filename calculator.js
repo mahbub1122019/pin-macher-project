@@ -3,12 +3,12 @@
 //Random button Event Handler:::::::::::
 
     function randomButton() {
-        document.getElementById("randomButton").addEventListener("click",function(){
+       
             const randomDisplay = document.getElementById("randomDisplay").value;
             const random =1000+Math.random(randomDisplay)*9000;
             const randomNumber =Math.round(random);
             document.getElementById("randomDisplay").value=randomNumber;
-        })
+       
     
     }
 
@@ -35,7 +35,7 @@ function back() {
 //Submit Button event handler:
 
 function notification() {
-    document.getElementById("submitButton").addEventListener("click",function(){
+    
         var calculatorInput=document.getElementById("calculator-input");
         var randomInput=document.getElementById("randomDisplay");
         if (calculatorInput.value==randomInput.value) {
@@ -48,7 +48,7 @@ function notification() {
             alternative.style.display="block";
             
         }
-    })
+    
        
      
  }   
